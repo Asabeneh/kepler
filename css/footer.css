@@ -1,6 +1,8 @@
 /* ===GENERAL=== */
 /* ===HEADER=== */
 /* ===MAIN=== */
+
+
 .center {
     width: 1000px;
     margin: 0 auto;
@@ -73,7 +75,17 @@ strong {
 .logo-footer {
     width: 170px;
     height: 53px;
-    ;
+
 }
 
-/* ===FOOTER=== */
+@media all and (max-width: 902px) {
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2rem;
+        max-width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+}
